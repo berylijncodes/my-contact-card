@@ -7,4 +7,11 @@ button {
   outline: transparent;
   /* backdrop-filter: blur(8px); */
   background-image: linear-gradient(150deg, #c33764 10%, #1d2671 100%);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scaleX(1.1);
+  /* transform: translateY(-3px); */
 }

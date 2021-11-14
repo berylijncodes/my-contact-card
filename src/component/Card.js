@@ -32,7 +32,9 @@ const Card = (props) => {
         <p>{props.title}</p>
         <p>{props.description}</p>
       </div>
-      <Button children="Follow me" />
+      <a href="https://twitter.com/Berylijn_codes">
+        <Button children="Follow me" />
+      </a>
       <Button children="Contact me" />
     </section>
   );
